@@ -720,6 +720,9 @@ A complete working example is available in /example, showcasing:
 
 ## 🎥 Demo
 
+![Simple Table](https://raw.githubusercontent.com/patushie/dynamo_data_table/main/assets/simple_table.png)
+![Paginated Table](https://raw.githubusercontent.com/patushie/dynamo_data_table/main/assets/pagination_table.png)
+![Grouping Table](https://raw.githubusercontent.com/patushie/dynamo_data_table/main/assets/grouping_table.png)
 ![Watch Demo](https://raw.githubusercontent.com/patushie/dynamo_data_table/main/assets/dynamo_table_optimized.gif)
 
 ## 📄 License

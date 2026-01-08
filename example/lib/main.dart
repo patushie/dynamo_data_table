@@ -86,7 +86,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "John Doe",
       branchName: "Ikeja",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "John Doe",
       branchName: "Ikeja",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -112,7 +112,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "Michael Bolton",
       branchName: "Surulere",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -125,7 +125,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "John Doe",
       branchName: "Ikeja",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -138,7 +138,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "Michael Bolton",
       branchName: "Surulere",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -151,7 +151,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "Michael Bolton",
       branchName: "Surulere",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -164,7 +164,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "John Doe",
       branchName: "Ikeja",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -177,7 +177,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "Michael Bolton",
       branchName: "Surulere",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -190,7 +190,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "John Doe",
       branchName: "Ikeja",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -203,7 +203,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "Michael Bolton",
       branchName: "Surulere",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -216,7 +216,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "John Doe",
       branchName: "Ikeja",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     salesRecordList.add(DynamoSalesRecord.init(
@@ -229,7 +229,7 @@ class _MyAppState extends State<MyApp> {
       salesAgent: "Michael Bolton",
       branchName: "Surulere",
       discountRate: 10,
-      shippingAmount: 7.5,
+      salesTaxRate: 7.5,
     ));
 
     if (_currentMode == TableViewMode.grouping) {
@@ -925,5 +925,6 @@ class DynamoSalesRecord {
     this.branchName = "",
     this.discountRate = 0,
     this.shippingAmount = 0,
+    this.salesTaxRate = 0,
   });
 }
